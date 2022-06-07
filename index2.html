@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Feed</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-light bg-light sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand">INSTAGRAM</a>
+          <form class="d-flex">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Nueva Publicacion
+              
+            </button>
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Nueva Publicacion</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      ...
+                    </div>
+                    <div class="modal-footer">
+                      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn btn-primary">Publicar</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+                         
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+                  <lord-icon
+                  src="https://cdn.lordicon.com/ryyjawhw.json"
+                  trigger="hover"
+                  style="width:30px;height:30px">
+                  </lord-icon>               
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                  <li><a class="dropdown-item" href="#">Cerrar Sesion</a></li>
+                  <li><a class="dropdown-item" href="#">Editar Perfil</a></li>
+                  <li><a class="dropdown-item" href="#">Privacidad</a></li>
+                </ul>
+              </div>
+          </form>
+        </div>
+      </nav>
+      <div class="row">
+        <a href="index.html">
+          <button>
+            <lord-icon
+            src="https://cdn.lordicon.com/shcamptw.json"
+            trigger="loop"
+            colors="primary:#121331"
+            state="intro"
+            style="width:20px;height:20px">
+            </lord-icon>
+          </button>
+        </a>
+        <a href="#">
+            <button><lord-icon
+              src="https://cdn.lordicon.com/vmibgbhr.json"
+              trigger="loop"
+              colors="primary:#121331"
+              state="intro"
+              style="width:20px;height:20px">
+          </lord-icon></button>
+        </a>
+      </div>
+        VISTA EN LISTA
+        
+        <div class="text-center">
+          <img src="https://pixabay.com/get/g90cd70e04349275edc7ae29715bf0d9a9000268f4acb478d0dca1bf7ced996fdd104bc703497840f7bcae3c39cae987f_640.jpg" class="rounded" alt="...">
+          <h6>34 LIKES</h6>
+          <p>MEJOR PUBLICACION 1</p>
+        </div>
+        <div class="text-center">
+          <img src="https://pixabay.com/get/g37e8e6912a1b1a58a23b6e9eac12afae988e5471d56dbb6c0c31fcbb5e25486786c83b1eb86faf4064ca19516a904a16_640.jpg" class="rounded" alt="...">
+          <h6>314 LIKES</h6>
+          <p>MEJOR PUBLICACION 2</p>        
+        </div>
+        <div class="text-center">
+          <img src="https://pixabay.com/get/gd847cb6fa358f018f265488617fdd40e6b2abef5b99a0be75198156e43d9fbb2a45cbca138514e214d786d05c17020c4_640.jpg" class="rounded" alt="...">
+          <h6>334 LIKES</h6>
+          <p>MEJOR PUBLICACION 3</p>
+        </div>
+        <div class="text-center">
+          <img src="https://pixabay.com/get/g27e4d89b7133d53d6f4a0ce288d1eda9d0d51e051c8da21e7d350c667375b3ced5c5a52b6b8e82494230e3166f54a3c4_640.jpg" class="rounded" alt="...">
+          <h6>134 LIKES</h6>
+          <p>MEJOR PUBLICACION 4</p>
+        </div>
+        <div class="text-center">
+          <img src="https://pixabay.com/get/g6443b7c5e439156a69aa4ab510ce00c9bba6d2c8bca4b526a8b7dc0e58a2572db78586070b2b1af17024da81898fcee9_640.jpg.." class="rounded" alt="...">
+          <h6>54 LIKES</h6>
+          <p>MEJOR PUBLICACION 5</p>
+        </div>
+        <div class="text-center">
+          <img src="https://pixabay.com/get/g6c8631ee509980d62198db20f58c2b0fc2ed24b127cb8fa1dfc7a6a5e6effca22002ef80ea3e119063d4fe1ccace63ff_640.jpg" class="rounded" alt="...">
+          <h6>92 LIKES</h6>
+          <p>MEJOR PUBLICACION 6</p>
+        </div>
+
+
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js" integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy" crossorigin="anonymous"></script>
+</body>
+</html>
